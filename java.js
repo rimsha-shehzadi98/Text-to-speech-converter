@@ -1,7 +1,21 @@
 let speech = new SpeechSynthesisUtterance();
 let voices = [
-    { name: 'Default Voice', lang: 'en-US' }, // Add more voices as needed
-    // { name: 'Voice Name', lang: 'language-code' }
+    { name: 'Default Voice', lang: 'en-US' },
+    { name: 'German', lang: 'de-DE' },
+    { name: 'United States English', lang: 'en-US' },
+    { name: 'UK English', lang: 'en-GB' },
+    { name: 'Russian', lang: 'ru-RU' },
+    { name: 'Spanish', lang: 'es-ES' },
+    { name: 'French', lang: 'fr-FR' },
+    { name: 'Chinese (Mandarin)', lang: 'zh-CN' },
+    { name: 'Japanese', lang: 'ja-JP' },
+    { name: 'Arabic', lang: 'ar-SA' },
+    { name: 'Portuguese', lang: 'pt-PT' },
+    { name: 'Italian', lang: 'it-IT' },
+    { name: 'Hindi', lang: 'hi-IN' },
+    { name: 'Korean', lang: 'ko-KR' },
+    { name: 'Dutch', lang: 'nl-NL' },
+    { name: 'Swedish', lang: 'sv-SE' }
 ];
 
 let voiceSelect = document.querySelector("select");
