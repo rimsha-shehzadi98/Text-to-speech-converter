@@ -1,7 +1,6 @@
 let speech = new SpeechSynthesisUtterance();
 let voices = [
-    { name: 'United States English', lang: 'en-US' }, // Add more voices as needed
-    // { name: 'Voice Name', lang: 'language-code' }
+    { name: 'United States English', lang: 'en-US' }
 ];
 
 let voiceSelect = document.querySelector("select");
